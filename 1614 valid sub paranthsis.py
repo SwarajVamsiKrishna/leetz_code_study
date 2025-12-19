@@ -11,3 +11,4 @@ class Solution:
                 current_depth -= 1
 
         return max_depth
+##  The depth of any character in the VPS is the ( number of left brackets before it ) - ( number of right brackets before it )
